@@ -3,7 +3,7 @@
 
 
 
-#to register user
+# to register user
 /auth/register - post
 
 payload : 
@@ -16,7 +16,7 @@ payload :
  }
 
 
- #login
+ # login
 
  /auth/sign_in - post
 
@@ -29,7 +29,7 @@ payload :
 
 
 
-#voucher generate
+# voucher generate
 
 /voucher/generate - post
 
@@ -38,11 +38,11 @@ payload :
 {"email":"jhon@doe.com","amount":5000}
 
 
-#manage vouchers
+# manage vouchers
 
 /voucher/managevouchers - get
 
-#redeem voucher
+# redeem voucher
 
 /redeem/redeemvoucher - post
 payload : 
@@ -54,7 +54,7 @@ payload :
 }
 
 
-#search vouchers
+# search vouchers
 
 request query 
 
