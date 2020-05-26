@@ -5,8 +5,8 @@ var mongoose = require('mongoose'),
   Voucher = mongoose.model('Voucher'),
     hbs = require('nodemailer-express-handlebars'),
     path = require('path'),
-  email = process.env.MAILER_EMAIL_ID || 'ajithjbdvt@gmail.com',
-  pass = process.env.MAILER_PASSWORD || 'Silvermoon@123',
+  email = process.env.MAILER_EMAIL_ID || 'yourmail@gmail.com',
+  pass = process.env.MAILER_PASSWORD || 'password',
   nodemailer = require('nodemailer');
 
 
